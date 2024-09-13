@@ -1,0 +1,17 @@
+:root {
+  --background-color: white;
+  --label-color: black;
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 0.5rem;
+}
+.location-container label {
+  color: var(--label-color);
+}
+body {
+  background-color: var(--background-color);
+}
